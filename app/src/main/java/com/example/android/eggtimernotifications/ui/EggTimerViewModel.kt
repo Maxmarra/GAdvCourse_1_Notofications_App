@@ -13,7 +13,7 @@ import com.example.android.eggtimernotifications.R
 import com.example.android.eggtimernotifications.util.sendNotification
 import kotlinx.coroutines.*
 
-class EggTimerViewModel(private val app: Application) : AndroidViewModel(app) {
+class EggTimerViewModel(app: Application) : AndroidViewModel(app) {
 
     private val REQUEST_CODE = 0
     private val TRIGGER_TIME = "TRIGGER_AT"
